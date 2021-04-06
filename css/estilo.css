@@ -33,13 +33,6 @@ body{
     text-align:center;
 }
 
-h1{
-    font-weight:900;
-    letter-spacing: -0.05rem;
-    margin-bottom: 50px;
-    color: white;
-}
-
 .btn-custom{
     color: white;
     border-radius: 500px;
@@ -66,6 +59,39 @@ h1{
     color: white;
     background-color: #6207e3;
 }
+
+#servicos{
+    padding: 1.25rem 0;
+}
+
+#servicos h2, h3{
+    color: #7c26f8;
+}
+
+#servicos .albuns{
+    padding: 0.6rem 0;
+}
+
+/*Tipografia*/
+h1{
+    font-weight:900;
+    letter-spacing: -0.05rem;
+    margin-bottom: 50px;
+    color: white;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: -0.05rem;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.05rem;
+}
+
 @media (min-width: 576px) { 
 
 }
