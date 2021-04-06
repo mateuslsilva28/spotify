@@ -1,0 +1,87 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+html, body, #home{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: url("../imagens/capa.png"), 
+                url("../imagens/ruido.png"), 
+                linear-gradient(50deg, #ff4169, #7c26f8),
+                fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.container-fluid{padding-left: 4rem;padding-right: 4rem;}
+
+.navbar-transparent{
+    background:rgba(0,0,0,0.6);
+    padding: 1rem 0;
+}
+
+.navbar .navbar-nav li:nth-of-type(4){
+    margin: 0 0;
+}
+
+.navbar .navbar-nav li .nav-link:hover{
+    color:#9bf0e1!important;
+}
+
+.capa{
+    text-align:center;
+}
+
+h1{
+    font-weight:900;
+    letter-spacing: -0.05rem;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.btn-custom{
+    color: white;
+    border-radius: 500px;
+    text-transform: uppercase;
+    transition: all 0.4s linear;
+    padding: 0.6rem 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.btn-roxo{
+    background-color: #7c26f8;
+}
+
+.btn-branco{
+    border: 2px solid white;
+}
+
+.btn-branco:hover{
+    color: black;
+    background: white;
+}
+
+.btn-roxo:hover{
+    color: white;
+    background-color: #6207e3;
+}
+@media (min-width: 576px) { 
+
+}
+
+@media (min-width: 768px) { 
+    h1{font-size: 3em;}
+}
+
+@media (min-width: 992px) { 
+    h1{font-size: 4em;}
+}
+
+@media (min-width: 1200px) { 
+    h1{font-size: 5em;}
+}
+
+@media (min-width: 1400px) { 
+    h1{font-size: 6em;}
+ }
