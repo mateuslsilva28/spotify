@@ -12,6 +12,7 @@ body{
                 linear-gradient(50deg, #ff4169, #7c26f8),
                 fixed;
     font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 .container-fluid{padding-left: 4rem;padding-right: 4rem;}
@@ -60,7 +61,7 @@ body{
     background-color: #6207e3;
 }
 
-#servicos{
+#servicos, #recursos{
     padding: 1.25rem 0;
 }
 
@@ -70,6 +71,17 @@ body{
 
 #servicos .albuns{
     padding: 0.6rem 0;
+}
+
+#recursos h3{
+    color: #9bf0e1!important;
+}
+
+#recursos .rotate{
+    transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 5rem;
 }
 
 /*Tipografia*/
