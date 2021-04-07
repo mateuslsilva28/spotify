@@ -32,6 +32,8 @@ body{
     text-align:center;
 }
 
+.carousel-item span{text-transform: initial;}
+
 .btn-custom{
     color: white;
     border-radius: 500px;
