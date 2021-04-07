@@ -9,13 +9,11 @@ html, body, #home{
 body{
     background: url("../imagens/capa.png"), 
                 url("../imagens/ruido.png"), 
-                linear-gradient(50deg, #ff4169, #7c26f8),
-                fixed;
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
     overflow-x: hidden;
 }
-
-.container-fluid{padding-left: 4rem;padding-right: 4rem;}
 
 .navbar-transparent{
     background:rgba(0,0,0,0.6);
@@ -84,6 +82,35 @@ body{
     padding-left: 5rem;
 }
 
+footer{
+    position: relative;
+    padding: 3rem 0 1.2rem 0;
+    background-color: #000;
+}
+
+footer h4{
+    text-transform: uppercase;
+    color: #919496;
+    font-size: 0.8rem;
+}
+
+footer .navbar-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a img{
+    margin: 0 0.2rem;
+}
+
 /*Tipografia*/
 h1{
     font-weight:900;
@@ -104,12 +131,34 @@ h3{
     letter-spacing: -0.05rem;
 }
 
-@media (min-width: 576px) { 
+@media (max-width:575px){
+    footer .container .row div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+}
 
+@media (min-width: 576px) { 
+    .btn-custom{
+        font-size: 1rem;
+    }
+    
+    footer .container .row div{
+        margin: 1rem 0!important;
+    }
 }
 
 @media (min-width: 768px) { 
     h1{font-size: 3em;}
+
+    .btn-custom{
+        margin: 0.6rem 0.9rem;
+    }
+
 }
 
 @media (min-width: 992px) { 
