@@ -19,7 +19,7 @@
 # :camera: Screenshoots
 <div align="center"> 
     <h2 align="center">Desktop</h2>
-    <img width="100%" src="imagens/layout-desktop.png">
+    <img width="100%" src="imagens/layout desktop.png">
     <h2 align="center">Mobile</h2>
     <img width="50%" src="imagens/layout-mobile.png">
     <img width="50%" src="imagens/active-mobile.png">
